@@ -1,0 +1,51 @@
+/* CSS Document */
+
+.kurzeme { 
+background-image:url(img/kurzeme_bw.png); 
+position: absolute; width: 303px; height: 390px; 
+top: 0px; left: 0px; z-index: -1;
+}
+.kurzeme:hover { background-image: url(img/kurzeme_color.png); z-index: 1; }
+
+.vidzeme { 
+background-image:url(img/vidzeme_bw.png); 
+position: absolute; width: 451px; height: 306px; 
+top: 0px; left: 281px; z-index: -1;
+}
+.vidzeme:hover { background-image: url(img/vidzeme_color.png); z-index: 1; }
+
+.latgale { 
+background-image:url(img/latgale_bw.png); 
+position: absolute; width: 272px; height: 473px; 
+top: 0px; left: 528px; z-index: -1;
+}
+.latgale:hover { background-image: url(img/latgale_color.png); z-index: 1; }
+
+.zemgale { 
+background-image:url(img/zemgale_bw.png); 
+position: absolute; width: 448px; height: 230px; 
+top: 172px; left: 181px; z-index: -1;
+}
+.zemgale:hover { background-image: url(img/zemgale_color.png); z-index: 1; }
+
+.kurzeme-content { display:none; }
+.kurzeme:hover .kurzeme-content { display:block; }
+
+.vidzeme-content { display:none; }
+.vidzeme:hover .vidzeme-content { display:block; }
+
+.latgale-content { display:none; }
+.latgale:hover .latgale-content { display:block; }
+
+.zemgale-content { display:none; }
+.zemgale:hover .zemgale-content { display:block; }
+
+.regionsText { 
+font-family: "Georgia";
+color: white;
+
+background: rgba(0, 0, 0, .4);
+border: 1px solid black;
+padding: 10px;
+margin: 30px;
+}
